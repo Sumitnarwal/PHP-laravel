@@ -10,7 +10,6 @@ class RegistrationController extends Controller
     {
         return view("form");
     }
-    
     public function register(Request $request)
     {
         $request->validate(
